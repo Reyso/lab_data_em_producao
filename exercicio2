@@ -1,0 +1,54 @@
+## 1 - Crie uma nova coluna chamda: "house_age"
+
+    - se o valor 'date' > 2014-01-01, 'new_house
+    - se o valor 'date' < 2014-01-01, 'old_house
+    
+## 2 - Crie uma nova coluna chamda: "dormitory_type"
+
+    -se bedrooms == 1 , 'studio'
+    -se badrooms == 2 , 'apartament'
+    -se badrroms > 2 , 'house'
+    
+## 3 -  Crie uma nova coluna chamda: "condition_type"
+
+    -se condition >= 2 , bad
+    -se condidtion ==3 ou condidtion ==4 , 'regular
+    -se condidtion == 5 , good
+
+## 4 modifique o tipo da coluna 'condition' para string
+
+## 5 delete as colunas: 'sqft_living15' e 'sqft_lot15'
+
+## 6 modifique o tipo da coluna "yr_build" para DATE
+
+## 7 mofique  o tipo da coluna yr_renovated para DATE
+
+## 8 qual a data mais antiga de construção de um imóvel?
+
+## 9 qual a data mais antiga de renovação de um imóvel?
+
+## 10 quantos imóveis tem 2 andares?
+
+## 11 quantos imóveis estão com condição igual a "regular"?
+
+## 12 quantos imóveis estão com condição igual a "bad" e possuem "vista par aágua"?
+
+## 13 quantos iumóveis estão com condição igual a "good" e são "new_house"
+
+## 14 qual valor do imóvel mais caro do tipo 'studio'?
+
+## 15 quantos imóveis do tipo 'apartament' foram reformados em 2015?
+
+## 16 qual maior número de quartos que um imóvel do tipo "house" possui?
+
+## 17 quantos imóveis "new_house" foram reformados no ano de 2014?
+
+## 18 Selecione as colunas: 'id','date','price','floors','zipcode' pelo método:
+    -Direto pelo nome das colunas
+    - pelos índices
+    - índices das linhas e nome das colunas
+    - indices booleanos
+    
+## 19 salve um arquivo .csv com somente as colunas do item 10 ao 17.
+
+## 20 modifique a cor dos pontos no mapa de 'pink' para ' verde escuro'

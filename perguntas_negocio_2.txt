@@ -1,0 +1,75 @@
+# Perguntas de negocio 2
+
+-
+
+## 1.2-  Pergauntas do CO
+
+    1 - Qual a data do imóvel mais antigo?
+    2 - Quantos imóveis possuem o número máximo de andares?
+    3 - Criar uma classificação para imóveis, separando em baixo e alto padrão de acordo com o preço
+        Acima de 540.000 = Alto Padrão
+        Abaixo de 540.00 = Baixo Padrão
+    4 - Gostaria de um relatório ordenado pelo preço e contendo as seguintes informações
+        - Id do imóvel
+        - Data que o imóvel ficou disponível para compra
+        - Número de quartos
+        - Tamanho total do terreno
+        - preço
+        - classificação do imóvel ( alto e baixo padrão)
+    5 - Gostaria de um mapa indicando onde as casas estão localizadas geograficamente
+
+
+## 2 - Planejamento de solução
+
+## 2.1 - Produto Final ( o que vou entregar? Planilha Email, gráfico, modelo ML)
+
+    - Email + 2 anexos:
+    - Email:
+        - Texto: Perguntas | Respostas
+    - Anexo:
+        - Um relatório em .csv
+        - Foto de um mapa em .html
+        
+
+## 2.2 - Ferramenta ( qual ferramenta eu vou usar)
+
+    - Python 3.8
+    - Jupyter notebook
+
+## 2.3 - Processo (Como fazer?)
+
+    1 - Qual a data do imóvel mais antigo?
+    
+        ::Podemos orgenar o conjunto de dados pela menor data
+    
+    2 - Quantos imóveis possuem o número máximo de andares?
+    
+        ::Encontrar o numero máximo de andares do conjunto de dados
+        ::econtrar quais imóveis possuem o valor máximo
+        
+        
+    3 - Criar uma classificação para imóveis, separando em baixo e alto padrão de acordo com o preço
+    
+        Acima de 540.000 = Alto Padrão
+        Abaixo de 540.00 = Baixo Padrão
+        
+            :: Criar uma nova coluna no conjunto de dados chamada "standard"
+                :: para cada linha, vou comparar a coluna "price"
+                :: Se price form maior que 540.00, irei escrever "high_standard" na coluna "standard"
+                ::Se price form menor que 540.00, irei escrever "low_standard" na coluna "standard"
+        
+    4 - Gostaria de um relatório ordenado pelo preço e contendo as seguintes informações
+        - Id do imóvel
+        - Data que o imóvel ficou disponível para compra
+        - Número de quartos
+        - Tamanho total do terreno
+        - preço
+        - classificação do imóvel ( alto e baixo padrão)
+        
+        :: selecionar as colunas desejadas
+                
+    5 - Gostaria de um mapa indicando onde as casas estão localizadas geograficamente
+    
+        :: biblioteca em python que armazene um mapa
+        
+    
