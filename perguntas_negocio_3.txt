@@ -1,0 +1,72 @@
+# Novas perguntas do CEO para você
+
+
+## 1 - Qual o número de imóvel por ano de construção?
+
+## 2 - Qual o menor número de quartos por ano de construção de imóveis?
+
+## 3 - Qual o preço de compra mais alto por cada número de quarto?
+
+## 4 - Qual a soama de todos os preços de compra por número de quartos?
+
+## 5 - Qual a soama de todos os preços de compra por número de quartos e banheiros?
+
+## 6 - Qual o tamanho médio das salas dos imóveis por ano de construição?
+
+## 7 - Qual o tamanho mediano das salas dos imóveis por ano de construção?
+
+## 8 - Qual o desvio-padrão do tamanho das salsa dos imóveis por ano de construção?
+
+## 9 - Como é o crescimento médio de preços de compras dos imóveis, por ano , por dia e pela semana do ano?
+
+## 10 - Gostaria de olhar no mapa e conseguir identificar as casas com o maior preço.
+
+
+
+
+# Planejamento da solução
+
+2.1 Produto final (o que eu vou entregar? Planilha,gráfico)
+    -Email + 2 anexos:
+        -Email : As repostas das perguntas.
+            - Pergunta | Resposta
+        - Anexo 01: Um dashboard com 3 gráficos.
+        - Anexo 02: um mapa no formato html
+
+2.2 Ferramenta ( qual ferramenta usar?)
+
+    - Python 3.9
+    - Jupyter Notebook
+
+2.3 Processo ( Como fazer? )
+
+1 - Qual o número de imóvel por ano de construção?
+    - Contar o número de ids por ano de construção
+
+2 - Qual o menor número de quartos por ano de construção de imóveis?
+    - Filtrar todos os imóveis por ano de construção e selecionar o menor número de quartos
+
+3 - Qual o preço de compra mais alto por cada número de quarto?
+    - Filtro todos os imóveis por número de quartos e selecionar o de maior preço
+    
+4 - Qual a soma de todos os preços de compra por número de quartos?
+    - Filtro todos os imóveis por número de quartos e somar todos os imóveis preços
+
+5 - Qual a soama de todos os preços de compra por número de quartos e banheiros?
+    - Filtro todos os imóveis por número de quartos e múmerp de banheiros e somo todos os imóveis preços
+
+6 - Qual o tamanho médio das salas dos imóveis por ano de construição?
+    - Filtro todos os imóveis por ano de construção e fazer a média do tamanho das salas
+    
+7 - Qual o tamanho mediano das salas dos imóveis por ano de construção?
+    - Filtro todos os imóveis por ano de construção e fazer a mediana do tamanho das salas
+    
+8 - Qual o desvio-padrão do tamanho das salsa dos imóveis por ano de construção?
+        - Filtro todos os imóveis por ano de construção e fazer o desvio padrão do tamanho das salas
+
+9 - Como é o crescimento médio de preços de compras dos imóveis, por ano , por dia e pela semana do ano?
+    -Fitlrar todos os imóeis por ano e fazer um gráfico on o eixo x tenha o ano e o y tenha a média do preço por ano
+    - bilioteca com gráfico de linhas - matplotlib , pyplot , seaborn
+    
+10 - Gostaria de olhar no mapa e conseguir identificar as casas com o maior preço.
+    -Modificar o mapa da ultima entrega fazendo que os pontos tenham o tamnho dependente do preço
