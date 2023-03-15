@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD:perguntas_de_negocio_5/perguntas_negocios_5.md
 # Aula 21 
     Novas Perguntas de negócio
 
@@ -90,6 +89,3 @@
     - Quero escolher visualizar somente valores a partir de uma data disponível para compra
         
     ideia: `Econtrar uma biblioteca que tenha funções que permitam colcoar filtros no jupyter, como pyplot`
-=======
-    
->>>>>>> refs/remotes/origin/master:perguntas_negocios_4.md
