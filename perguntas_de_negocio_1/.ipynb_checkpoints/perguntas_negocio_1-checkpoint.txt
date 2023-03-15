@@ -1,0 +1,31 @@
+### Onde está a informação? (excel,DB,API,Manual)
+
+R: [https://www.kaggle.com/datasets/harlfoxem/housesalesprediction](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
+
+### Como coletar as info? (SQL,Python,Streamlit)
+
+Downlaod 
+
+### Como responder as perguntas?
+
+1. Quantas casas estão disponíveis para comprar?
+    1. Contar o número de linhas do conjunto de dados, não repetidos
+2. Quantos atributos as casas possuem?
+    1. Contar o número de colunas
+3. Quais são os outros atributos?
+    1. Mostrar o nome das colunas
+4. Qual a casa mais cara do Portfólio?
+    1. Ordenar as linhas pela coluna preço
+5. Qual a casa com maior número de quartos?
+    1. Ordenar as linhas pela coluna num quartos
+    
+6 - qual a soma total de quartos do conjunto de dados?
+7 - quantas casas possuem 2 banheiros?
+8 - qual preço médio de todas as casas no conjunto de dados?
+9 - Qual preço médio de casas com 2 banheiros?
+10 - Qual preço minimo entre as casas com 3 quatos
+11 - quantas casas possuem mais de 300 mestros quadrados na sala de estar?
+12 - quantas casas tem mais de 2 andares?
+13 - quantas casas tem vista para o mar?
+14 - das casas com vista para o mar, quantas tem 3 quartos?
+15 - Das casas com mais de 300 m2 de sala de estar, quantas tem mais de 2 banheiros?
